@@ -47,6 +47,8 @@ public class LdapConstants {
     // Group memebership virtual attribure used by some servers (e.g. OpenDJ). Used in tests.
     public static final String ATTRIBUTE_IS_MEMBER_OF_NAME = "isMemberOf";
 
+    // Group memebership virtual attribure used by other servers (e.g. OpenLDAP).
+    public static final String ATTRIBUTE_MEMBER_OF_NAME = "memberOf";
 
     public static final String ATTRIBUTE_OPENLDAP_PWD_ACCOUNT_LOCKED_TIME_NAME = "pwdAccountLockedTime";
 
